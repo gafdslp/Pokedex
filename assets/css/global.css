@@ -9,11 +9,10 @@
 
 @media screen and (min-width: auto) {
    .content {
-      max-width: 660px;
+      max-width: auto;
    }
 }
-
-   
+  
 
 .content h1 {
    padding-bottom: 1rem;
@@ -29,7 +28,7 @@
    margin: 0;
 }
 
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 370px) {
    .pokemons {
       grid-template-columns: 1fr 1fr;
       
