@@ -7,7 +7,13 @@
    padding: 1rem;
 }
 
+@media screen and (min-width: auto) {
+   .content {
+      max-width: 660px;
+   }
+}
 
+   
 
 .content h1 {
    padding-bottom: 1rem;
@@ -17,10 +23,32 @@
 .pokemons {
    
    display: grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 1fr;
    list-style: none;
    padding: 0;
    margin: 0;
+}
+
+@media screen and (min-width: 380px) {
+   .pokemons {
+      grid-template-columns: 1fr 1fr;
+      
+   }
+}
+
+
+@media screen and (min-width: 660px) {
+   .pokemons {
+      grid-template-columns: 1fr 1fr 1fr;
+      
+   }
+}
+
+@media screen and (min-width: 880px) {
+   .pokemons {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      
+   }
 }
 
 .pokemon{
