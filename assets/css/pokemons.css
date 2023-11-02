@@ -12,8 +12,10 @@
 }
 
 .pokemons #Charmander img {
-    height: 15vh;
-    margin: -21px 0px 100px 65px;
+    position: relative;
+    height: 104px;
+    top: -21px;
+    left: 9px;
 }
 
 .pokemons #Meowth img {
