@@ -12,11 +12,11 @@
     left: 3px;
 }
 
-.pokemons #Geodude img {
+.pokemons #Eevee img {
     position: relative;
     height: 104px;
-    top: -21px;
-    left: 3px;
+    top: -22px;
+    left: -7px;
 
 }
 
@@ -29,9 +29,9 @@
 
 .pokemons #Meowth img {
     position: relative;
-    height: 104px;
-    top: -21px;
-    left: 3px;
+    height: 113px;
+    top: -32px;
+    left: -9px;
 }
 
 .pokemons #Jigglypuff img {
@@ -50,21 +50,21 @@
 
 .pokemons #Poliwag img {
     position: relative;
-    height: 104px;
-    top: -21px;
-    left: 3px;
+    height: 88px;
+    top: -14px;
+    left: -11px;
 }
 
 .pokemons #Vileplume img {
     position: relative;
-    height: 104px;
-    top: -21px;
-    left: 3px;
+    height: 92px;
+    top: -15px;
+    left: 2px;
 }
 
 .pokemons #Pikachu img {
     position: relative;
-    height: 104px;
-    top: -21px;
-    left: 3px;
+    height: 108px;
+    top: -27px;
+    left: -5px;
 }
