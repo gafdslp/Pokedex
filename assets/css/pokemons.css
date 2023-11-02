@@ -1,13 +1,22 @@
 .pokemons #Bulbasaur img {
-    height: 5rem;
+    position: relative;
+    height: 104px;
+    top: -21px;
+    left: 3px;
 }
 
 .pokemons #Caterpie img {
-    height: 5rem;
+    position: relative;
+    height: 104px;
+    top: -21px;
+    left: 3px;
 }
 
 .pokemons #Geodude img {
-    height: 5rem;
+    position: relative;
+    height: 104px;
+    top: -21px;
+    left: 3px;
 
 }
 
@@ -15,31 +24,47 @@
     position: relative;
     height: 104px;
     top: -21px;
-    left: 9px;
+    left: 3px;
 }
 
 .pokemons #Meowth img {
-    height: 16vh;
-    margin: -30px 12px 100px 44px;
+    position: relative;
+    height: 104px;
+    top: -21px;
+    left: 3px;
 }
 
 .pokemons #Jigglypuff img {
-    height: 16vh;
-    margin: -24px 0px 100px 19px;
+    position: relative;
+    height: 104px;
+    top: -21px;
+    left: 3px;
 }
 
 .pokemons #Squirtle img {
-    height: 5rem;
+    position: relative;
+    height: 104px;
+    top: -21px;
+    left: 3px;
 }
 
 .pokemons #Poliwag img {
-    height: 5rem;
+    position: relative;
+    height: 104px;
+    top: -21px;
+    left: 3px;
 }
 
 .pokemons #Vileplume img {
-    height: 5rem;
+    position: relative;
+    height: 104px;
+    top: -21px;
+    left: 3px;
 }
 
 .pokemons #Pikachu img {
-    height: 5rem;
+    position: relative;
+    height: 104px;
+    top: -21px;
+    left: 3px;
 }

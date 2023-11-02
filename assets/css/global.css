@@ -65,6 +65,22 @@ body {
    
 }
 
+.ash {
+   position: fixed;
+   height: 500px;
+   margin: 28px 0px 0px 1064px;
+   z-index: -1;
+   opacity: 100%
+}
+
+.pikachu-fundo {
+   position: fixed;
+   height: 410px;
+   margin: 200px 0px 0px -63px;
+   z-index: -1;
+   opacity: 90%
+}
+
 @media screen and (min-width: 550px) {
    .content {
       max-width: 550px;
@@ -81,21 +97,5 @@ body {
       border-radius: 1rem;
       
    }
-
-   .ash {
-      position: fixed;
-      height: 500px;
-      margin: 28px 0px 0px 1064px;
-      z-index: -1;
-      opacity: 100%
-   }
-   
-   .pikachu-fundo {
-      position: fixed;
-      height: 410px;
-      margin: 200px 0px 0px -63px;
-      z-index: -1;
-      opacity: 90%
-   }
-   
 }
+   
