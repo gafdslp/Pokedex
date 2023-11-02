@@ -49,6 +49,7 @@
     flex-direction: column;
     align-items:flex-start;
     align-self: flex-start;
+    margin-top: 1rem;
  }
  
  .pokemon .detail .types .type {
