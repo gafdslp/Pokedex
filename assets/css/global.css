@@ -26,18 +26,18 @@ body {
    }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 550px) {
    .content {
-      max-width: 480px;
+      max-width: 550px;
       margin: 1rem auto;
       border-radius: 1rem;
    }
 }
 
 
-@media screen and (min-width: 710px) {
+@media screen and (min-width: 750px) {
    .content {
-      max-width: 710px;
+      max-width: 750px;
       margin: 1rem auto;
       border-radius: 1rem;
    }
