@@ -48,18 +48,18 @@
     left: 3px;
 }
 
-.pokemons #Poliwag img {
+.pokemons #Gyarados img {
     position: relative;
-    height: 88px;
-    top: -14px;
-    left: -11px;
+    height: 106px;
+    top: -26px;
+    left: 4px;
 }
 
-.pokemons #Vileplume img {
+.pokemons #Pidgeotto img {
     position: relative;
-    height: 92px;
-    top: -15px;
-    left: 2px;
+    height: 105px;
+    top: -22px;
+    left: 4px;
 }
 
 .pokemons #Pikachu img {
