@@ -43,6 +43,21 @@ body {
    margin: 0px 0px 0px 10px;
 }
 
+.ash {
+   position: fixed;
+   height: 500px;
+   margin: 28px 0px 0px 1064px;
+   z-index: -1;
+   opacity: 100%
+}
+
+.pikachu-fundo {
+   position: fixed;
+   height: 410px;
+   margin: 200px 0px 0px -63px;
+   z-index: -1;
+   opacity: 90%
+}
 
 @media screen and (min-width: 300px) {
    .content {
@@ -65,27 +80,24 @@ body {
    
 }
 
-.ash {
-   position: fixed;
-   height: 500px;
-   margin: 28px 0px 0px 1064px;
-   z-index: -1;
-   opacity: 100%
-}
-
-.pikachu-fundo {
-   position: fixed;
-   height: 410px;
-   margin: 200px 0px 0px -63px;
-   z-index: -1;
-   opacity: 90%
-}
 
 @media screen and (min-width: 550px) {
    .content {
       max-width: 550px;
       margin: 1rem auto;
       border-radius: 1rem;
+   }
+
+   .background {
+      opacity: 80%;
+   }
+   
+   .ash {
+      opacity: 0%;
+   }
+   
+   .pikachu-fundo {
+      opacity: 0%;
    }
 }
 
@@ -95,7 +107,18 @@ body {
       max-width: 750px;
       margin: 1rem auto;
       border-radius: 1rem;
-      
+   }
+
+   .background {
+      opacity: 80%;
+   }
+   
+   .ash {
+      opacity: 100%;
+   }
+   
+   .pikachu-fundo {
+      opacity: 100%;
    }
 }
    
