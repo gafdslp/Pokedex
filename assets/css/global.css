@@ -36,11 +36,19 @@ body {
    padding: 1rem;
    background-color: #f8f8f8;
    box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+   display: grid;
 }
 
 .content h1 {
    padding-bottom: 1rem;
    margin: 0px 0px 0px 10px;
+}
+
+.pokedex-logo {
+   height: 60px;
+   margin: 0px 0px 10px 10px;
+   display: flex;
+   align-self: center;   
 }
 
 .ash {
