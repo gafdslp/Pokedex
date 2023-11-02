@@ -1,0 +1,43 @@
+.pokemons #Bulbasaur img {
+    height: 5rem;
+}
+
+.pokemons #Caterpie img {
+    height: 5rem;
+}
+
+.pokemons #Geodude img {
+    height: 5rem;
+
+}
+
+.pokemons #Charmander img {
+    height: 15vh;
+    margin: -21px 0px 100px 65px;
+}
+
+.pokemons #Meowth img {
+    height: 16vh;
+    margin: -30px 12px 100px 44px;
+}
+
+.pokemons #Jigglypuff img {
+    height: 16vh;
+    margin: -24px 0px 100px 19px;
+}
+
+.pokemons #Squirtle img {
+    height: 5rem;
+}
+
+.pokemons #Poliwag img {
+    height: 5rem;
+}
+
+.pokemons #Vileplume img {
+    height: 5rem;
+}
+
+.pokemons #Pikachu img {
+    height: 5rem;
+}
