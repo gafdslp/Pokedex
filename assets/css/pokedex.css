@@ -63,29 +63,23 @@
     
     border-style: none;
     max-width: 100%;
-    height: 3rem;
+    max-height: 100%;
+    height: 5rem;
     align-self: flex-end;
     margin: 10px;
  }
  
  
- @media screen and (min-width: 370px) {
+ @media screen and (min-width: 480px) {
     .pokemons {
        grid-template-columns: 1fr 1fr;
        
     }
  }
  
- @media screen and (min-width: 620px) {
+ @media screen and (min-width: 710px) {
     .pokemons {
        grid-template-columns: 1fr 1fr 1fr;
-       
-    }
- }
- 
- @media screen and (min-width: 800px) {
-    .pokemons {
-       grid-template-columns: 1fr 1fr 1fr 1fr;
        
     }
  }
