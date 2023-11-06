@@ -162,6 +162,14 @@
     left: 3px;
 
  }
+
+ .pagination {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+ }
  
  
  @media screen and (min-width: 550px) {
