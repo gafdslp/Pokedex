@@ -5,13 +5,22 @@ const maxRecords = 151
 const limit = 10
 let offset = 0;
 
+
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 function convertPokemonToLi(pokemon) {
+    const capitalizedPokemonName = capitalizeFirstLetter(pokemon.name);
+    const paddedPokemonNumber = pokemon.number.toString().padStart(4, '0');
+
+
     return `
         <li class="pokemon ${pokemon.type}" id="${pokemon.name}">
-            <span class="number">#${pokemon.number}</span>
-            <span class="name">${pokemon.name}</span>
+            <span class="number">#${paddedPokemonNumber}</span>
+            <span class="name">${capitalizedPokemonName}</span>
 
-            <div class="detail">
+            <div class="detail background-image-container">
                 <ol class="types">
                     ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
                 </ol>

@@ -8,7 +8,7 @@
     margin: 0;
     
  }
- 
+
  
  .pokemon{
     
@@ -20,7 +20,13 @@
     color: #F0f2f6;
     max-width: 100%;
     max-height: 137px;
+    transition: background-color 0.3s;
  }
+
+.pokemon:hover {
+   opacity: 0.7; /* Altera a cor quando o botão está em hover */
+}
+
 
  
  .pokemon .name {
@@ -32,7 +38,7 @@
    
    .pokemon .number {
       color: #000;
-      opacity: 0.3;
+      opacity: 0.4;
       text-align: right;
       font-size: .725rem;
       display: list-item;
@@ -72,6 +78,7 @@
    .grass{
    
       background-color: #49D0B0;
+
    }
    
    .bug{
@@ -144,6 +151,8 @@
    
       background-color: rgb(236, 133, 48);
    }
+
+
  
 .pokemon .detail .types .grass {
     
@@ -207,12 +216,17 @@
    padding: .25rem 5;
    margin: .25rem 0;
    font-size: .825rem;
-   background-color:rgb(101, 54, 122) ;
+   background-color:rgb(66, 54, 122) ;
    color: white;
    border: none;
    border-radius: 1rem;
-
+   height: 30px;
+   transition: background-color 0.3s; /* Adiciona uma transição para suavizar a mudança de cor */
  }
+
+ .pagination button:hover {
+   background-color: rgb(92, 138, 199); /* Altera a cor quando o botão está em hover */
+}
 
  .pokemon .detail img{
    display: flex;
@@ -226,6 +240,25 @@
    left: 3px;
 
 }
+
+.background-image-container {
+   position: relative;
+}
+
+.background-image-container::before {
+   content: "";
+   position: absolute;
+   top: -33px;
+   left: 44px;
+   right: -57px;
+   bottom: 0px;
+   background-image: url(/img/pokebola.png);
+   background-size: cover;
+   opacity: 0.1;
+   z-index: 0;
+   height: 123px;
+}
+
  
  
  @media screen and (min-width: 550px) {
