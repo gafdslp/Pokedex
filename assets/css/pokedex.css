@@ -36,7 +36,7 @@
 
 .normal{
 
-   background-color: #8c5394;
+   background-color: #be69c7;
    color: #F0f2f6;
 }
 
@@ -48,13 +48,13 @@
 
 .water{
 
-   background-color: #26a1c7;
+   background-color: #44bce0;
    color: #F0f2f6;
 }
 
 .electric{
 
-   background-color: #acb431;
+   background-color: rgb(223, 235, 67);
    color: #F0f2f6;
 }
  
@@ -135,12 +135,12 @@
 
 .pokemon .detail .types #water {
     
-   background-color: #63cde7;
+   background-color: #3675d4;
 }
 
 .pokemon .detail .types #electric {
     
-   background-color: #adad99;
+   background-color: #d4d136;
 }
 
 .pokemon .detail .types #flying {
